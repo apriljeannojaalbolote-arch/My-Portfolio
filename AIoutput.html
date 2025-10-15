@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>MYHOUSE Real Estate</title>
+</head>
+
+<body class="bg-gray-200">
+    <div class="bg-cover bg-center min-h-screen text-white"
+        style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-30 z-0"></div>
+
+        <!-- Navigation -->
+        <nav class="relative z-10 flex justify-between items-center px-8 py-6">
+            <h1 class="text-3xl font-bold text-orange-400 tracking-wide">MYHOUSE</h1>
+            <ul class="hidden md:flex space-x-6 text-3xl font-medium text-gray-300">
+                <li><a href="#" class="hover:text-orange-400 transition">Home</a></li>
+                <li><a href="#" class="hover:text-orange-400 transition">About</a></li>
+                <li><a href="#" class="hover:text-orange-400 transition">Properties</a></li>
+                <li><a href="#" class="hover:text-orange-400 transition">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="relative z-10 flex flex-col justify-center items-center text-center px-6 py-28">
+            <h2 class="text-[5.6rem] md:text-6xl font-extrabold leading-tight mb-10">Live Where You Belong</h2>
+            <p class="text-lg md:text-xl text-white max-w-xl mb-8">Discover spaces that reflect your lifestyle.
+                Elegant,
+                modern, and made for you.</p>
+            <div class="flex flex-wrap justify-center space-x-10">
+                <a href="#"
+                    class="shadow-lg bg-blue-200/30 backdrop-blur-sm hover:bg-gray-300/50 duration-500 text-amber-100 px-6 py-4 rounded-md text-xl font-bold">Explore
+                    Buying</a>
+                <a href="#"
+                    class="shadow-lg bg-gray-200/30 backdrop-blur-sm hover:bg-gray-300/50 duration-500 text-amber-100 px-6 py-4 rounded-md text-xl font-bold">Explore
+                    Renting</a>
+                <a href="#"
+                    class="shadow-lg bg-purple-200/30 backdrop-blur-sm hover:bg-gray-300/50 duration-500 text-amber-100 px-6 py-4 rounded-md text-xl font-bold">Explore
+                    Selling</a>
+            </div>
+    </div>
+    </section>
+
+    <section class="px-6 py-10 mt-40">
+        <div class="text-center mb-12">
+            <h1 id="properties" class="text-5xl font-bold mb-2 text-black">PROPERTIES</h1>
+            <p class="text-2xl text-black font-serif">Your Home Your Story.</p>
+        </div>
+
+        <div class="space-y-0">
+            <!-- Property 1: Image Left -->
+            <div class="grid md:grid-cols-2 gap-0 items-center bg-orange-400/80">
+                <div class="bg-[url('outside5.jpg')] bg-cover bg-center h-[35rem] w-full rounded shadow"></div>
+                <div class=" mx-5">
+                    <h2 class="text-5xl font-bold mb-2 text-white justify-start">Modern Stone Retreat</h2>
+                    <p class="text-white mt-2 text-2xl">A sleek, multi-story home with stone and stucco finishes,
+                        sunset
+                        views, and minimalist landscaping ideal for stylish living.</p>
+                </div>
+            </div>
+
+            <!-- Property 2: Image Right -->
+            <div class="grid md:grid-cols-2 gap-0 items-center bg-black">
+                <div class="md:order-2 bg-[url('outside6.jpg')] bg-cover bg-center h-[35rem] w-full rounded shadow">
+                </div>
+                <div class="md:order-1 text-end mx-5">
+                    <h2 class="text-5xl font-bold mb-2 text-white">Contemporary Poolside Villa</h2>
+                    <p class="text-white mt-2 text-2xl">A luxurious modern home with glass walls, wood accents, and a
+                        private
+                        pool perfect for coastal relaxation and entertaining.</p>
+                </div>
+            </div>
+
+            <!-- Property 3: Image Left -->
+            <div class="grid md:grid-cols-2 gap-0 items-center bg-red-400">
+                <div class="bg-[url('outside1.jpg')] bg-cover bg-center h-[35rem] w-full rounded shadow"></div>
+                <div class="mx-5">
+                    <h2 class="text-5xl font-bold mb-2 text-white">Charming Red Cottage</h2>
+                    <p class="text-white mt-2 text-2xl">A cozy suburban home with a bold red exterior, blue door, and
+                        landscaped front-yard for welcoming guests.</p>
+                </div>
+            </div>
+
+            <!-- Property 4: Image Right -->
+            <div class="grid md:grid-cols-2 gap-0 items-center bg-red-100">
+                <div class="md:order-2 bg-[url('outside3.jpg')] bg-cover bg-center h-[35rem] w-full rounded shadow">
+                </div>
+                <div class="md:order-1 text-end mx-5">
+                    <h2 class="text-5xl font-bold mb-2 text-black justify-end">Elegant Arched Residence</h2>
+                    <p class="text-gray-700 mt-2 text-2xl">A grand two-story home with arched windows, ornate fencing,
+                        and a
+                        red-tiled roof blending tradition and sophistication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <section class="pb-12 mx-auto md:pb-20 max-w-7xl mt-40">
+        <div class="py-4 text-center md:py-8">
+            <h4 class="text-base font-bold tracking-wide text-center uppercase text-teal-600">Reviews</h4>
+            <p class="mt-2 tracking-tight text:xl md:text-2xl  text-5xl font-bold mb-2 text-black">We have some fans.
+            </p>
+        </div>
+
+        <div class="gap-8 space-y-8 md:columns-2 lg:columns-3">
+
+            <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10">
+                <div class="flex gap-4 items-start">
+                    <div class="flex-1 flex justify-between items-start">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700">Ravi Kumar</h6>
+
+                        </div>
+                        <a href="https://twitter.com/ravikumar/status/1234567890"
+                            class="text-blue-500 hover:text-blue-600 ml-4">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="mt-8">Geo brought our vision to life—clean, modern, and exactly what we needed.
+                </p>
+            </div>
+
+            <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10">
+                <div class="flex gap-4 items-start">
+                    <div class="flex-1 flex justify-between items-start">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700">Anjali Sharma</h6>
+
+                        </div>
+                        <a href="https://www.instagram.com/p/1234567890" class="text-blue-500 hover:text-blue-600 ml-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="mt-8">The layout was stunning and user-friendly. Our clients love it!</p>
+            </div>
+
+            <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10">
+                <div class="flex gap-4 items-start">
+                    <div class="flex-1 flex justify-between items-start">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700">Vijay Singh</h6>
+
+                        </div>
+                        <a href="https://www.facebook.com/vijaysingh/posts/1234567890"
+                            class="text-blue-500 hover:text-blue-600 ml-4">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="mt-8">Professional, creative, and detail-oriented. A joy to collaborate with.
+                </p>
+            </div>
+
+            <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10">
+                <div class="flex gap-4 items-start">
+                    <div class="flex-1 flex justify-between items-start">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700">Priya Patel</h6>
+
+                        </div>
+                        <a href="https://twitter.com/priyapatel/status/1234567890"
+                            class="text-blue-500 hover:text-blue-600 ml-4">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="mt-8">Geo’s design made our listings stand out. We saw results immediately.
+                </p>
+            </div>
+
+            <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10">
+                <div class="flex gap-4 items-start">
+                    <div class="flex-1 flex justify-between items-start">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700">Arjun Mehta</h6>
+
+                        </div>
+                        <a href="https://www.instagram.com/p/1234567890" class="text-blue-500 hover:text-blue-600 ml-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="mt-8">Fast, responsive, and full of great ideas. Highly recommended.</p>
+            </div>
+
+            <div class="p-8 bg-white border border-gray-100 shadow-2xl aspect-auto rounded-3xl shadow-gray-600/10">
+                <div class="flex gap-4 items-start">
+                    <div class="flex-1 flex justify-between items-start">
+                        <div>
+                            <h6 class="text-lg font-medium text-gray-700">Sneha Rao</h6>
+
+                        </div>
+                        <a href="https://www.facebook.com/sneharao/posts/1234567890"
+                            class="text-blue-500 hover:text-blue-600 ml-4">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="mt-8">He nailed the minimalist look we were going for—so elegant.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative z-10 bg-gray-950 text-gray-300 mt-20">
+        <div class="max-w-screen-xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-3 gap-8 border-b border-gray-800">
+            <div>
+                <h4 class="text-2xl uppercase font-semibold text-orange-400 mb-4">Menu</h4>
+                <ul class="space-y-2 text-2xl">
+                    <li><a href="#" class="hover:text-orange-400">Home</a></li>
+                    <li><a href="#" class="hover:text-orange-400">About</a></li>
+                    <li><a href="#" class="hover:text-orange-400">Properties</a></li>
+                    <li><a href="#" class="hover:text-orange-400">Contact</a></li>
+                </ul>
+            </div>
+            <div class="text-center sm:text-left">
+                <h4 class="text-2xl uppercase font-semibold text-orange-400 mb-4">Company</h4>
+                <p class="text-2xl text-gray-400">East Watch Services, LLC</p>
+                <p class="text-2xl text-gray-400 mt-1">Helping you find your perfect space.</p>
+            </div>
+            <div>
+                <h4 class="text-2xl uppercase font-semibold text-orange-400 mb-4">Contact Us</h4>
+                <ul class="space-y-2 text-2xl">
+                    <li>📞 +63 948 314 8451</li>
+                    <li>📍 Tagum City</li>
+                    <li>✉️ geoobero@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div
+            class="max-w-screen-xl mx-auto px-6 py-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500">
+            <div>© 2025 MYHOUSE. All rights reserved.</div>
+            <div class="flex space-x-4 mt-4 sm:mt-0">
+                <a href="#" class="hover:text-orange-400">Facebook</a>
+                <a href="#" class="hover:text-orange-400">Instagram</a>
+                <a href="#" class="hover:text-orange-400">Email</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
